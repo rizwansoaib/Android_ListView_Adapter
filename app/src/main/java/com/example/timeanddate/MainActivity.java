@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
         mylist.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                String indexid = String.valueOf(position+1);
+                String indexid = "Roll No: "+String.valueOf(position+1);
                 Toast.makeText(MainActivity.this, indexid,Toast.LENGTH_SHORT).show();
             }
         });
